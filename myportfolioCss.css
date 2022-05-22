@@ -1,422 +1,256 @@
-*{
-    margin:0;
-    padding: 0;
-}
- 
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name = 'viewport' content="width=device-width, initial-scale =1.0 ">
+        <link rel=" stylesheet" href="myportfolioCss.css">
+        
+        <script src="https://kit.fontawesome.com/16f6a8bd71.js" crossorigin="anonymous"></script>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-/*navigation bar*/
-.navbar{
-    display: flex;
-    align-items: flex-end;
-    position: sticky;
-    top:0;
-    cursor: pointer;
-}
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        
+        <nav class="navbar background h-nav-resp">
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav-list v-class-resp">
+               <li><a  href="#">Home</a></li>
+               <li><a href="#">Skills</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Projects</a></li>
+               <li><a href="#">Resume</a></li>
+               <li><a href="#">Contact</a></li>
+            </ul>
+         </nav>
 
-.nav-list{
-    display: flex;
-    width:80%;
-}
-
-.nav-list li{
-    list-style: none;
-    padding: 15px 15px;
+        <section class="home background ">
+            <div class="box-main text ">
+                <div class="row no-gutters">
+                    <div class="col-md-6 no-gutters">
+                        <div class = "leftside maincontent"><p class="text-small">Hello There 👋, I am</p>
+                        <h1><p class="text-big"> Arya Kumari</p></h1>
+            
+                        <div class="wrapper">
+                    
+                        <ul class="dynamic-txts">
+                            <li><span>Front End Web Developer</span></li>
+                            <li><span>Freelancer</span></li>
+                            <li><span>Graphic designing</span></li>
+                        </ul>
+                        </div>
+                        <br><br><br>
+                        <div class="logo">
+                            <i class="fa fa-brands fa-github"></i>
+                            <i class="fa fa-brands fa-linkedin-in"></i>
+                            <i class="fa fa-brands fa-twitter"></i>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 no-gutters">
+                        <div class="rightside noimage">
+                            <img src="coding.png" width="457" height="315" viewbox = "0 0 400 215" fill = "none">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+            
     
-}
-
-.nav-list li a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
+        <section class ="skills">
+            <br><br><br><br><br><br>
+            <h1 class="whiteheading">SKILLS</h1>
+            <div class="container">
+                <div class="box">
+                    <div class="icon"><i class=" fa fa-brands fa-js"  aria-hidden="true"></i></div>
+                    <div class ="cont">
+                        <h3>JavaScript</h3>
+                        <p>40%</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-solid fa-code"  aria-hidden="true"></i></div>
+                    <div class ="cont">
+                        <h3>Html/CSS</h3>
+                        <p>90%</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-brands fa-bootstrap"  aria-hidden="true"></i></i></div>
+                    <div class ="cont">
+                        <h3>bootstrap</h3>
+                        <p>90%</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-solid fa-c" aria-hidden="true"></i></div>
+                    <div class ="cont">
+                        <h3>C++</h3>
+                        <p>70%</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-brands fa-java" aria-hidden="true"></i></div>
+                    <div class ="cont">
+                        <h3>Java</h3>
+                        <p>85%</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-brands fa-python" aria-hidden="true"></i></div>
+                    <div class ="cont">
+                        <h3>Python</h3>
+                        <p>90%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class = "about background2">
+            
+            <div class ="paras">
+            <br><br>
+            <h1>ABOUT</h1>
+            <br><br>
+            <div class="row no-gutters">
+                <div class="col-md-6 no-gutters">
+                    <div class = "leftside"><p class="sectionSubTag ">I am an enthusiastic and hard-working girl with a keen interest in the tech sector. I completed my schooling from Pragati public school, Delhi, and currently, I am pursuing a bachelor's in technology in the field of Information technology from Indraprastha university.
+                        I am proficient in Java and Python Programming Language and Front-end Web Development. Additionally, I am skilled at building websites and creating web apps using HTML, CSS and JS, and database management tools.
+                        Apart from academics, I am inclined towards graphic designing and reading. And in my free time, I like to explore more of the tech world like cloud computing and data analysis.</p>
+                    <br><br><br><br>
+                    </div>
+                </div>
+                <div class="col-md-6 no-gutters ">
+                    <div class="rightside thumbnail"><img src = "MyPhoto.jpeg" alt = "Me" class="imgFluid"><!--<p class="sectionSubTag text-small"></p>-->
+                </div>
+            </div>
+            
+            </div>
+        </section>
     
-}
-
-.nav-list li a:hover{
-    color: grey;
-}
-
-.rightNav{
-    margin-left: 700px;
-}
-.rightNav ul{
-    margin-left:41px ;
-}
-.rightNav ul li{
-    display: inline-block;
-}
-.rightNav ul li a{
-    transition:all 0.3s;
-}
-
-/*section1*/
-.background{
-    background: rgba(0, 0, 0, 0.7)url('background1.jpg');
-    background-size: cover;
-    background-blend-mode: darken;
-}
-
-.home{
-    height: 100vh;
-    
-}
-
-.box-main{
-    position: absolute;
-    top: 30%;
-    left: 0;
-    color: beige;
-    padding-left: 150px;
-}
-
-.box-main{
-    font-size: 40px;
-    position: relative;
-    margin-top: 30px;
-    font-weight: 300;
-    line-height: 1.3;
-}
-
-.box-main h1{
-    color: #c32865;
-}
-
-.text-big{
-    font-size: 50px;
-    text-decoration-color: rgb(255, 255, 0);
-}
-
-.text-small{
-    font-size: 30px;
-    font-weight: 400;
-}
-
-.wrapper{
-    display: inline-flex;
-}
-
-.wrapper .static-txt{
-    color: #fff;
-    font-size: 30px;
-    font-weight: 400;
-}
-
-.wrapper .dynamic-txts{
-    margin-left: 15px;
-    font-size: 40px;
-    height:90px;
-    line-height: 85px;
-    overflow: hidden;
-}
-
-.dynamic-txts li {
-    color: #c32865;
-    list-style: none;
-    font-size: 40px;
-    font-weight: 500;
-    position: relative;
-    top:0;
-    animation: slide 6s steps(4) infinite;
-}
-
-@keyframes slide{
-    100%{
-        top: -360px;
-    }
-}
-
-.dynamic-txts li span{
-    position: relative;
-}
-.dynamic-txts li span::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    border-left: 2px solid #c32865;
-    animation: typing 2.5s steps(10) infinite;
-}
-
-@keyframes typing {
-    100%{
-        left:100%;
-        margin: 0 -35px 0 35px;
-    }
-}
-
-
-.container{
-    position: relative;
-    width: 800px;
-    height: 500px;
-    margin:240px auto;
-    
-}
-
-.container .box{
-    position: relative;
-    width: calc(370px - 30px);
-    height: calc(300px - 30px);
-    background: #6a4caf;
-    float: left;
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
-
-}
-
-.container .box .icon{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background:  rgb(1, 1, 100);
-    transition: 0.5s;
-    z-index: 1;
-}
-
-.container .box:hover .icon{
-    top:20px;
-    left: 36%;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
-
-.container .box .icon .fa{
-    position:absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    font-size: 80px;
-    transition: 0.5s;
-    color:#fff;
-
-}
-
-.container .box:hover .icon .fa{
-    font-size: 40px;
-    left:50%;
-}
-
-.container .box .content{
-    position: absolute;
-    top: 100%;
-    height: calc(100% - 100px);
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    /*opacity: 0;*/
-}
-
-.container .box:hover .content{
-    top: 100px;
-    left:calc(15%-5%);
-}
-
-.container .box .content h3{
-    margin: 0 0 10px;
-    padding: 0;
-    color:#fff;
-    font-size: 20px;
-}
-
-.container .box .content p{
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    font-size: 10px;
-}
-
-
-
-/*.part{
-    position: relative;
-    width: 800px;
-    height: 700px;
-    margin: 140px 20px;
-}*/
-
-.background2{
-    color:#fff;
-    background-image: linear-gradient(-45deg, #4bbcfd, #2f4dd3,rgb(6, 31, 139), #6a4caf, #52257c);
-    background-blend-mode: darken;
-    background-size: 200% 200%; 
-    position: relative;
-    animation: change 3s ease-in-out infinite;
-}
-
-
-
-@keyframes change{
-    0%{
-        background-position: 0 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0 50%;
-    }
-}
-
-
-.paras{
-    padding:0px 65px;
-}
-
-.sectionTag{
-    padding: 7px 7px;
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(76, 235, 14);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border: 3px solid #000;
-    position: absolute;
-    left: 50%;
-    top:70px;
-    transform: translate(-50%, -50%);
-    margin: 2px 2px;
-}
-.heading{
-    padding: 7px 7px;
-    font-size: 30px;
-    color: rgb(76, 235, 14);
-    font-family: 'Roboto', sans-serif;
-    left: 40%;
-    top:2500px;
-    letter-spacing: 2px;
-    position: absolute;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border: 3px solid #000;
-}
-
-
-
-.sectionSubTag{
-    font-family: 'PT Sans', sans-serif;
-    
-}
-
-.leftside, .rightside{
-    height: 100vh;
-    width: 100%;
-}
-@media screen and (min-width:760px){
-    .leftside, .rightside{
-        height: 100vh;
-    }
-}
-
-.contact{
-    background-color: #f6f5f4;
-    height: 833px;
-}
-
-.text-center{
-    text-align: center;
-    padding: 30px;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 35px;
-}
-
-.form{
-    max-width: 500px;
-    margin: 25px auto;
-}
-
-.form-input{
-    margin: 14px 0;
-    padding:5px 3px;
-    width: 100%;
-    font-size: 19px;
-    border: 2px solid grey;
-    border-radius: 6px;
-}
-
-
-/*.container .box:nth-child(1) .icon{
-    background: #6a4caf;
-}
-
-.container .box:nth-child(1) {
-    background:rgb(1, 1, 100);
-}
-
-.container .box:nth-child(2) .icon{
-    background:#d03852;
-}
-
-.container .box:nth-child(2) {
-    background:#f54967;
-}
-
-.container .box:nth-child(3) .icon{
-    background:#23798e;
-}
-
-.container .box:nth-child(3) {
-    background:#328fa5;
-}*/
-
-.text-footer{
-    text-align: center;
-    padding: 30px 0;
-    font-family: 'Roboto Flex', sans-serif;
-    display: flex;
-    justify-content: center;
-    color: #f6f5f4;
-}
-
-.burger{
-    display: none;
-    position: absolute;
-    cursor:pointer;
-    right: 5%;
-    top:15px
-}
-.line{
-    width:33px;
-    background-color: #fff;
-    height: 4px;
-    margin:5px 3px;
-}
-@media only screen and (max-width: 1140px){
-    .nav-list{
-        flex-direction: column;
-    }
-    .navbar{
-        flex-direction: column;
-    }
-    .rightNav{
-        text-align: center;
-    }
-    #search{
-        width:100%;
-    }
-    .burger{
-        display: block;
-    }
-    .h-nav-resp{
-        height: 72px;
-    }
-    .v-class-resp{
-        opacity: 0;
-    }
-}
-
-
-
-
-
-
-
-
+        <section class="project">
+                <br><br><br><br><br><br>
+                <h1 class="whiteheading">PROJECTS</h1>
+                <div class="container">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-solid fa-mobile-screen-button"></i></div>
+                        <div class ="cont">
+                            <h3>CLOCKWISE ROTATOR</h3>
+                            <p>This is a Website for a phone company that shows the features of the phone in a clockwise rotating direction.
+                                This website is built with a spectacular UI design.
+                                <a href="https://github.com/A1Kumari/clockwise-rotator">https://github.com/A1Kumari/clockwise-rotator</a></p>
+                        </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-solid fa-photo-film"></i></div>
+                        <div class ="cont">
+                            <h3>PHOTO GALLERY</h3>
+                            <p>With this project I was aiming to make a platform where photo's with some additional information can be seen
+                                which is something similar to Pinterest. This website is having a good UI design with proper functionality.
+                                <a href="https://github.com/A1Kumari/photo-gallery">https://github.com/A1Kumari/photo-gallery</a></p>
+                        </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-solid fa-shop"></i></div>
+                    <div class ="cont">
+                        <h3>HOTEL WEBSITE</h3>
+                        <p>With this project, I was aiming to achieve a responsive website for a restaurant with all the important features it
+                            should have.
+                            <a href="https://github.com/A1Kumari/Taj-Hotel">https://github.com/A1Kumari/Taj-Hotel</a></p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-solid fa-clock"></i></div>
+                    <div class ="cont">
+                        <h3>HOTEL WEBSITE</h3>
+                        <p>With this project, I was aiming to achieve a responsive website for a restaurant with all the important features it
+                            should have.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-solid fa-money-check"></i></div>
+                    <div class ="cont">
+                        <h3>HOTEL WEBSITE</h3>
+                        <p>With this project, I was aiming to achieve a responsive website for a restaurant with all the important features it
+                            should have.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-solid fa-book"></i></div>
+                    <div class ="cont">
+                        <h3>HOTEL WEBSITE</h3>
+                        <p>With this project, I was aiming to achieve a responsive website for a restaurant with all the important features it
+                            should have.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class = "resume background2">
+            
+            <div class ="paras">
+                <br><br>
+                <h1>RESUME</h1>
+                <br><br>
+            <div class="row no-gutters">
+                <div class="col-md-6 no-gutters">
+                    <div class = "leftside"><p class="sectionSubTag ">EDUCATION
+                        GURU GOBIND SINGH INDRAPRASTHA UNIVERSITY 2021 - 2025
+                        BTech Information Technology New Delhi, India GPA: 9.8
+                        PRAGATI PUBLIC SCHOOL 2021
+                        Senior Secondary School New Delhi, India GPA: 8.9
+                        • Selection and recruitment process at younity - younity
+                        • CodeChef contest - CodeChef
+                        • contributed to a open source organization( Wikimedia)
+                        • participated in google cloud facilitator program</p>
+                    </div>
+                </div>
+                <div class="col-md-6 no-gutters">
+                    <div class="rightside"><p class="sectionSubTag "></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        
+
+        <section class="contact">
+            <h2 class = 'text-center'>Contact </h2>
+            <div class="form">
+                <input class ="form-input" type ='text' name = 'name' id="name" placeholder="Enter Your name">
+                <input class ="form-input" type ='text' name = 'phone' id="phone" placeholder="Enter Your phone">
+                <input class ="form-input" type ='text' name = 'email' id="email" placeholder="Enter Your email">
+                      <textarea name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your concern/ Suggestions/ Feedback"></textarea>
+                <button class="btn btn-dark">Submit</button>
+            </div>
+        </section>
+        
+        <footer class="background">
+            <p class="text-footer">
+               Copyright &copy; 2027-All rights reserved
+            </p>
+        </footer>
+        <script src="myportfolioJs.js"></script>
+        
+    </body>
+</html>
 
 
