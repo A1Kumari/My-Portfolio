@@ -1,9 +1,17 @@
 # My-Portfolio
-My website wherer i have also uploaded all my other projects with my resume and information through which you can contact me.
+The website is responsive with a actractive navigation bar and it also includes css animation.This website includes my other projects and information about me and my contact details through which you can contact me.
 
 
 
 https://user-images.githubusercontent.com/94031882/169703928-ea765721-7b22-4af7-9e7d-4c93f3666671.mp4
+
+
+https://user-images.githubusercontent.com/94031882/171334379-6f4838b3-a736-44c4-8185-2df0cb5bbe95.mp4
+
+
+
+https://user-images.githubusercontent.com/94031882/171334142-31f1dadb-6187-4a57-9c23-9c7ecf85bf29.mp4
+
 
 
 ![image](https://user-images.githubusercontent.com/94031882/169703262-42359faa-aa9d-40af-8845-f8f4e1ba87a0.png)
